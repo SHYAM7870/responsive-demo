@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 20;
+    box-sizing: border-box;
+    background-color: #bbb;
+}
+section{
+    margin: 20px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.content{
+    height: 20vh;
+    width: 30vw;
+    font-size: 20px;
+    font-weight: 500;
+}
+#top{
+    position: absolute;
+    right: 20px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+#image{
+    height: 40vh;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTGy-CYFGUCVz4ZR3RVDWzAFfdH11daUVS6KiR6beW0cma-on38JHwSVDym2xrCuri6sA&usqp=CAU);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 20px;
+}
+#bottom{
+    position: absolute;
+    right: 30px;
+    bottom: 40px;
+}
+
+@media screen and (min-width: 400px) and (max-width: 500px) {
+    *{
+        padding: 0;
+        margin: 20;
+        box-sizing: border-box;
+        background-color: #bbb;
+    }
+    section{
+        margin: 20px;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+    }
+    .content{
+        height: auto;
+        width: 40%;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    #top{
+        position: absolute;
+        left: 20px;
+    }
+    a{
+        text-decoration: none;
+        color: #000;
+    }
+    #image{
+        height: 40vh;
+        width: 50vw;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTGy-CYFGUCVz4ZR3RVDWzAFfdH11daUVS6KiR6beW0cma-on38JHwSVDym2xrCuri6sA&usqp=CAU);
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 45%;
+        left: 20%;
+    }
+    #bottom{
+        position: absolute;
+        left: 30px;
+        height: auto;
+        width: 50vw;
+        bottom: 0;
+    }
+    b{
+        font-weight: normal;
+        position: absolute;
+        left: 0;
+    }
+}
